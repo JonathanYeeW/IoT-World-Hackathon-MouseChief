@@ -1,0 +1,697 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1299AF6DD6ADBDC537F94EF4 /* Pods_MouseChiefv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B8B9D0876DC41BFE9CD810F /* Pods_MouseChiefv2.framework */; };
+		230EB96720ADEEE5000693BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230EB96620ADEEE5000693BE /* AppDelegate.swift */; };
+		230EB96C20ADEEE5000693BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 230EB96A20ADEEE5000693BE /* Main.storyboard */; };
+		230EB96F20ADEEE5000693BE /* MouseChiefv2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 230EB96D20ADEEE5000693BE /* MouseChiefv2.xcdatamodeld */; };
+		230EB97120ADEEE5000693BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 230EB97020ADEEE5000693BE /* Assets.xcassets */; };
+		230EB97420ADEEE5000693BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 230EB97220ADEEE5000693BE /* LaunchScreen.storyboard */; };
+		230EB97F20ADEEE6000693BE /* MouseChiefv2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230EB97E20ADEEE6000693BE /* MouseChiefv2Tests.swift */; };
+		230EB98A20ADEEE6000693BE /* MouseChiefv2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230EB98920ADEEE6000693BE /* MouseChiefv2UITests.swift */; };
+		230EB99920ADF14D000693BE /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230EB99820ADF14D000693BE /* MainVC.swift */; };
+		230EB99B20ADF158000693BE /* OtherVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230EB99A20ADF158000693BE /* OtherVC.swift */; };
+		230EB99D20ADF16B000693BE /* FinalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230EB99C20ADF16B000693BE /* FinalVC.swift */; };
+		23E0523720AE0B23009D49BA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 23E0523620AE0B23009D49BA /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		230EB97B20ADEEE5000693BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 230EB95B20ADEEE4000693BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 230EB96220ADEEE4000693BE;
+			remoteInfo = MouseChiefv2;
+		};
+		230EB98620ADEEE6000693BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 230EB95B20ADEEE4000693BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 230EB96220ADEEE4000693BE;
+			remoteInfo = MouseChiefv2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		230EB96320ADEEE4000693BE /* MouseChiefv2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MouseChiefv2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		230EB96620ADEEE5000693BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		230EB96B20ADEEE5000693BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		230EB96E20ADEEE5000693BE /* MouseChiefv2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MouseChiefv2.xcdatamodel; sourceTree = "<group>"; };
+		230EB97020ADEEE5000693BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		230EB97320ADEEE5000693BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		230EB97520ADEEE5000693BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		230EB97A20ADEEE5000693BE /* MouseChiefv2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MouseChiefv2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		230EB97E20ADEEE6000693BE /* MouseChiefv2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MouseChiefv2Tests.swift; sourceTree = "<group>"; };
+		230EB98020ADEEE6000693BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		230EB98520ADEEE6000693BE /* MouseChiefv2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MouseChiefv2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		230EB98920ADEEE6000693BE /* MouseChiefv2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MouseChiefv2UITests.swift; sourceTree = "<group>"; };
+		230EB98B20ADEEE6000693BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		230EB99820ADF14D000693BE /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		230EB99A20ADF158000693BE /* OtherVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherVC.swift; sourceTree = "<group>"; };
+		230EB99C20ADF16B000693BE /* FinalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalVC.swift; sourceTree = "<group>"; };
+		23E0523620AE0B23009D49BA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		53CD8913D8E2DB17C944E4EB /* Pods-MouseChiefv2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MouseChiefv2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MouseChiefv2/Pods-MouseChiefv2.debug.xcconfig"; sourceTree = "<group>"; };
+		5B8B9D0876DC41BFE9CD810F /* Pods_MouseChiefv2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MouseChiefv2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA863A929565B24BB8DB4950 /* Pods-MouseChiefv2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MouseChiefv2.release.xcconfig"; path = "Pods/Target Support Files/Pods-MouseChiefv2/Pods-MouseChiefv2.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		230EB96020ADEEE4000693BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1299AF6DD6ADBDC537F94EF4 /* Pods_MouseChiefv2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		230EB97720ADEEE5000693BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		230EB98220ADEEE6000693BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		230EB95A20ADEEE4000693BE = {
+			isa = PBXGroup;
+			children = (
+				230EB96520ADEEE5000693BE /* MouseChiefv2 */,
+				230EB97D20ADEEE5000693BE /* MouseChiefv2Tests */,
+				230EB98820ADEEE6000693BE /* MouseChiefv2UITests */,
+				230EB96420ADEEE4000693BE /* Products */,
+				5E87A9DFEA45D306E36B72EB /* Pods */,
+				4E10DA9E2B1002EB9A6C679A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		230EB96420ADEEE4000693BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				230EB96320ADEEE4000693BE /* MouseChiefv2.app */,
+				230EB97A20ADEEE5000693BE /* MouseChiefv2Tests.xctest */,
+				230EB98520ADEEE6000693BE /* MouseChiefv2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		230EB96520ADEEE5000693BE /* MouseChiefv2 */ = {
+			isa = PBXGroup;
+			children = (
+				230EB96620ADEEE5000693BE /* AppDelegate.swift */,
+				230EB99720ADF138000693BE /* View Controllers */,
+				230EB96A20ADEEE5000693BE /* Main.storyboard */,
+				230EB97020ADEEE5000693BE /* Assets.xcassets */,
+				230EB97220ADEEE5000693BE /* LaunchScreen.storyboard */,
+				230EB97520ADEEE5000693BE /* Info.plist */,
+				230EB96D20ADEEE5000693BE /* MouseChiefv2.xcdatamodeld */,
+				23E0523620AE0B23009D49BA /* GoogleService-Info.plist */,
+			);
+			path = MouseChiefv2;
+			sourceTree = "<group>";
+		};
+		230EB97D20ADEEE5000693BE /* MouseChiefv2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				230EB97E20ADEEE6000693BE /* MouseChiefv2Tests.swift */,
+				230EB98020ADEEE6000693BE /* Info.plist */,
+			);
+			path = MouseChiefv2Tests;
+			sourceTree = "<group>";
+		};
+		230EB98820ADEEE6000693BE /* MouseChiefv2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				230EB98920ADEEE6000693BE /* MouseChiefv2UITests.swift */,
+				230EB98B20ADEEE6000693BE /* Info.plist */,
+			);
+			path = MouseChiefv2UITests;
+			sourceTree = "<group>";
+		};
+		230EB99720ADF138000693BE /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				230EB99820ADF14D000693BE /* MainVC.swift */,
+				230EB99A20ADF158000693BE /* OtherVC.swift */,
+				230EB99C20ADF16B000693BE /* FinalVC.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		4E10DA9E2B1002EB9A6C679A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B8B9D0876DC41BFE9CD810F /* Pods_MouseChiefv2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5E87A9DFEA45D306E36B72EB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				53CD8913D8E2DB17C944E4EB /* Pods-MouseChiefv2.debug.xcconfig */,
+				EA863A929565B24BB8DB4950 /* Pods-MouseChiefv2.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		230EB96220ADEEE4000693BE /* MouseChiefv2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 230EB98E20ADEEE6000693BE /* Build configuration list for PBXNativeTarget "MouseChiefv2" */;
+			buildPhases = (
+				9AC2A7CF301CE9674776AEEA /* [CP] Check Pods Manifest.lock */,
+				230EB95F20ADEEE4000693BE /* Sources */,
+				230EB96020ADEEE4000693BE /* Frameworks */,
+				230EB96120ADEEE4000693BE /* Resources */,
+				A4D4A137D7892BF4AFDECC01 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MouseChiefv2;
+			productName = MouseChiefv2;
+			productReference = 230EB96320ADEEE4000693BE /* MouseChiefv2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		230EB97920ADEEE5000693BE /* MouseChiefv2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 230EB99120ADEEE6000693BE /* Build configuration list for PBXNativeTarget "MouseChiefv2Tests" */;
+			buildPhases = (
+				230EB97620ADEEE5000693BE /* Sources */,
+				230EB97720ADEEE5000693BE /* Frameworks */,
+				230EB97820ADEEE5000693BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				230EB97C20ADEEE5000693BE /* PBXTargetDependency */,
+			);
+			name = MouseChiefv2Tests;
+			productName = MouseChiefv2Tests;
+			productReference = 230EB97A20ADEEE5000693BE /* MouseChiefv2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		230EB98420ADEEE6000693BE /* MouseChiefv2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 230EB99420ADEEE6000693BE /* Build configuration list for PBXNativeTarget "MouseChiefv2UITests" */;
+			buildPhases = (
+				230EB98120ADEEE6000693BE /* Sources */,
+				230EB98220ADEEE6000693BE /* Frameworks */,
+				230EB98320ADEEE6000693BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				230EB98720ADEEE6000693BE /* PBXTargetDependency */,
+			);
+			name = MouseChiefv2UITests;
+			productName = MouseChiefv2UITests;
+			productReference = 230EB98520ADEEE6000693BE /* MouseChiefv2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		230EB95B20ADEEE4000693BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Jonathan Yee";
+				TargetAttributes = {
+					230EB96220ADEEE4000693BE = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+					230EB97920ADEEE5000693BE = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 230EB96220ADEEE4000693BE;
+					};
+					230EB98420ADEEE6000693BE = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 230EB96220ADEEE4000693BE;
+					};
+				};
+			};
+			buildConfigurationList = 230EB95E20ADEEE4000693BE /* Build configuration list for PBXProject "MouseChiefv2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 230EB95A20ADEEE4000693BE;
+			productRefGroup = 230EB96420ADEEE4000693BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				230EB96220ADEEE4000693BE /* MouseChiefv2 */,
+				230EB97920ADEEE5000693BE /* MouseChiefv2Tests */,
+				230EB98420ADEEE6000693BE /* MouseChiefv2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		230EB96120ADEEE4000693BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				230EB97420ADEEE5000693BE /* LaunchScreen.storyboard in Resources */,
+				23E0523720AE0B23009D49BA /* GoogleService-Info.plist in Resources */,
+				230EB97120ADEEE5000693BE /* Assets.xcassets in Resources */,
+				230EB96C20ADEEE5000693BE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		230EB97820ADEEE5000693BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		230EB98320ADEEE6000693BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9AC2A7CF301CE9674776AEEA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MouseChiefv2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4D4A137D7892BF4AFDECC01 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MouseChiefv2/Pods-MouseChiefv2-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MouseChiefv2/Pods-MouseChiefv2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		230EB95F20ADEEE4000693BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				230EB99B20ADF158000693BE /* OtherVC.swift in Sources */,
+				230EB99920ADF14D000693BE /* MainVC.swift in Sources */,
+				230EB96F20ADEEE5000693BE /* MouseChiefv2.xcdatamodeld in Sources */,
+				230EB96720ADEEE5000693BE /* AppDelegate.swift in Sources */,
+				230EB99D20ADF16B000693BE /* FinalVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		230EB97620ADEEE5000693BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				230EB97F20ADEEE6000693BE /* MouseChiefv2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		230EB98120ADEEE6000693BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				230EB98A20ADEEE6000693BE /* MouseChiefv2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		230EB97C20ADEEE5000693BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 230EB96220ADEEE4000693BE /* MouseChiefv2 */;
+			targetProxy = 230EB97B20ADEEE5000693BE /* PBXContainerItemProxy */;
+		};
+		230EB98720ADEEE6000693BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 230EB96220ADEEE4000693BE /* MouseChiefv2 */;
+			targetProxy = 230EB98620ADEEE6000693BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		230EB96A20ADEEE5000693BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				230EB96B20ADEEE5000693BE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		230EB97220ADEEE5000693BE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				230EB97320ADEEE5000693BE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		230EB98C20ADEEE6000693BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		230EB98D20ADEEE6000693BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		230EB98F20ADEEE6000693BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53CD8913D8E2DB17C944E4EB /* Pods-MouseChiefv2.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PJA739TV7C;
+				INFOPLIST_FILE = MouseChiefv2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = StartScreenCompany.MouseChiefv2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		230EB99020ADEEE6000693BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA863A929565B24BB8DB4950 /* Pods-MouseChiefv2.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PJA739TV7C;
+				INFOPLIST_FILE = MouseChiefv2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = StartScreenCompany.MouseChiefv2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		230EB99220ADEEE6000693BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PJA739TV7C;
+				INFOPLIST_FILE = MouseChiefv2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = StartScreenCompany.MouseChiefv2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MouseChiefv2.app/MouseChiefv2";
+			};
+			name = Debug;
+		};
+		230EB99320ADEEE6000693BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PJA739TV7C;
+				INFOPLIST_FILE = MouseChiefv2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = StartScreenCompany.MouseChiefv2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MouseChiefv2.app/MouseChiefv2";
+			};
+			name = Release;
+		};
+		230EB99520ADEEE6000693BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PJA739TV7C;
+				INFOPLIST_FILE = MouseChiefv2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = StartScreenCompany.MouseChiefv2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MouseChiefv2;
+			};
+			name = Debug;
+		};
+		230EB99620ADEEE6000693BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PJA739TV7C;
+				INFOPLIST_FILE = MouseChiefv2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = StartScreenCompany.MouseChiefv2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MouseChiefv2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		230EB95E20ADEEE4000693BE /* Build configuration list for PBXProject "MouseChiefv2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				230EB98C20ADEEE6000693BE /* Debug */,
+				230EB98D20ADEEE6000693BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		230EB98E20ADEEE6000693BE /* Build configuration list for PBXNativeTarget "MouseChiefv2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				230EB98F20ADEEE6000693BE /* Debug */,
+				230EB99020ADEEE6000693BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		230EB99120ADEEE6000693BE /* Build configuration list for PBXNativeTarget "MouseChiefv2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				230EB99220ADEEE6000693BE /* Debug */,
+				230EB99320ADEEE6000693BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		230EB99420ADEEE6000693BE /* Build configuration list for PBXNativeTarget "MouseChiefv2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				230EB99520ADEEE6000693BE /* Debug */,
+				230EB99620ADEEE6000693BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		230EB96D20ADEEE5000693BE /* MouseChiefv2.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				230EB96E20ADEEE5000693BE /* MouseChiefv2.xcdatamodel */,
+			);
+			currentVersion = 230EB96E20ADEEE5000693BE /* MouseChiefv2.xcdatamodel */;
+			path = MouseChiefv2.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 230EB95B20ADEEE4000693BE /* Project object */;
+}
